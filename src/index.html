@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1, shrink-to-fit=yes">
+
+  <title>Random Art Generator</title>
+  <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="ui two column grid">
+    <div class="sixteen wide column">
+      <ui class="ui centered very padded text container segment">
+        <h1 class="ui header"> Random Art Generator </h1>
+      </ui>
+
+      <ui id="canvas-container" class="ui centered very padded text container segment">
+        <canvas height="400" width="400"></canvas>
+      </ui>
+
+      <ui class="ui centered text container segment" id="controls-container">
+        <div class="ui horizontal list">
+          <div class="item">
+            <i id="square" class="big link icon square outline "></i>
+          </div>
+          <div class="item">
+            <i id="slower" class="big link backward icon"></i>
+          </div>
+          <div class="item">
+            <i id="faster" class="big link forward icon"></i>
+          </div>
+          <div class="item">
+            <i id="circle" class="big link icon circle"></i>
+          </div>
+        </div>
+        <div>
+          <p id="speed"></p>
+        </div>
+      </ui>
+    </div>
+  </div>
+
+  <script src="app.bundle.js "></script>
+</body>
+
+</html>

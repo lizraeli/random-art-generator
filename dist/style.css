@@ -1,0 +1,39 @@
+.icon-link {
+  color: black;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title {
+  margin-top: 2em !important;
+  margin-bottom: 0.1em !important;
+}
+#canvas-container {
+  background-color: #fafafa !important;
+}
+
+#controls-container {
+  padding-bottom: 0;
+}
+
+canvas {
+  background-color: #ffffff !important;
+  width: 40%;
+  /* border-width: 0.3em; */
+  padding: 0.1em;
+  border-style: solid;
+  border-radius: 15em;
+  border-color: #dadada;
+}
+
+.responsive-img {
+  width: 40%;
+}
+
+@media (max-width: 30em) {
+  canvas {
+    width: 75%;
+  }
+}
